@@ -1,0 +1,14 @@
+Soal: Pertanyaan 1
+Pilihan: Opsi 1
+Pilihan: Opsi 2
+Pilihan: Opsi 3
+Pilihan: Opsi 4
+Jawaban: 2
+
+Soal: Pertanyaan 2
+Pilihan: Opsi A
+Pilihan: Opsi B
+Pilihan: Opsi C
+Pilihan: Opsi D
+Jawaban: 1
+
