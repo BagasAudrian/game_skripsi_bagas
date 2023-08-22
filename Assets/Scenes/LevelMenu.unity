@@ -635,7 +635,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e04b8aca12d9b43b05aa6f41ac049f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quizData: []
+  input_soal: {fileID: 0}
+  input_soal2: {fileID: 0}
+  input_soal3: {fileID: 0}
+  input_soal4: {fileID: 0}
+  input_soal5: {fileID: 0}
+  input_soal6: {fileID: 0}
+  input_soal7: {fileID: 0}
+  input_soal8: {fileID: 0}
+  input_soal9: {fileID: 0}
+  input_soal10: {fileID: 0}
+  lagu: {fileID: 0}
 --- !u!1 &221636072
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,7 +1221,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e04b8aca12d9b43b05aa6f41ac049f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quizData: []
+  input_soal: {fileID: 0}
+  input_soal2: {fileID: 0}
+  input_soal3: {fileID: 0}
+  input_soal4: {fileID: 0}
+  input_soal5: {fileID: 0}
+  input_soal6: {fileID: 0}
+  input_soal7: {fileID: 0}
+  input_soal8: {fileID: 0}
+  input_soal9: {fileID: 0}
+  input_soal10: {fileID: 0}
+  lagu: {fileID: 0}
 --- !u!114 &1401172294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1258,7 +1278,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1401172293}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: BackToMainMenu
+        m_MethodName: MainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1453,7 +1473,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e04b8aca12d9b43b05aa6f41ac049f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quizData: []
+  input_soal: {fileID: 0}
+  input_soal2: {fileID: 0}
+  input_soal3: {fileID: 0}
+  input_soal4: {fileID: 0}
+  input_soal5: {fileID: 0}
+  input_soal6: {fileID: 0}
+  input_soal7: {fileID: 0}
+  input_soal8: {fileID: 0}
+  input_soal9: {fileID: 0}
+  input_soal10: {fileID: 0}
+  lagu: {fileID: 0}
 --- !u!1 &1704723737
 GameObject:
   m_ObjectHideFlags: 0
@@ -1889,7 +1919,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e04b8aca12d9b43b05aa6f41ac049f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quizData: []
+  input_soal: {fileID: 0}
+  input_soal2: {fileID: 0}
+  input_soal3: {fileID: 0}
+  input_soal4: {fileID: 0}
+  input_soal5: {fileID: 0}
+  input_soal6: {fileID: 0}
+  input_soal7: {fileID: 0}
+  input_soal8: {fileID: 0}
+  input_soal9: {fileID: 0}
+  input_soal10: {fileID: 0}
+  lagu: {fileID: 0}
 --- !u!1 &1950724660
 GameObject:
   m_ObjectHideFlags: 0
@@ -2037,4 +2077,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e04b8aca12d9b43b05aa6f41ac049f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quizData: []
+  input_soal: {fileID: 0}
+  input_soal2: {fileID: 0}
+  input_soal3: {fileID: 0}
+  input_soal4: {fileID: 0}
+  input_soal5: {fileID: 0}
+  input_soal6: {fileID: 0}
+  input_soal7: {fileID: 0}
+  input_soal8: {fileID: 0}
+  input_soal9: {fileID: 0}
+  input_soal10: {fileID: 0}
+  lagu: {fileID: 0}
