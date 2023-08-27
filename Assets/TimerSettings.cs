@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class TimerSetting : MonoBehaviour
+public class TimerSettings : MonoBehaviour
 {
     public TMP_Text TextTimer;
     public bool keepTiming;

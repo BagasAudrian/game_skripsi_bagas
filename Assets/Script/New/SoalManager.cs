@@ -45,9 +45,13 @@ public class SoalManager : MonoBehaviour
                    jawabanBenarSoal9, jawabanBenarSoal10;
 
     public int currentSoal;
+    public int currentScore;
+    public TextMeshProUGUI scoreText;
 
     private void Start()
     {
+        currentScore = 0;
+
         jawabanBenarSoal1 = PlayerPrefs.GetString(currentLevel.Soal1Jawaban[0]);
         jawabanBenarSoal2 = PlayerPrefs.GetString(currentLevel.Soal2Jawaban[0]);
         jawabanBenarSoal3 = PlayerPrefs.GetString(currentLevel.Soal3Jawaban[0]);
@@ -148,6 +152,7 @@ public class SoalManager : MonoBehaviour
         if(currentSoal > PanelSoal.Length)
         {
             Debug.Log("win");
+            scoreText.text = "Score : " + currentScore.ToString("0");
         }
         else
         {

@@ -6,8 +6,6 @@ using TMPro;
 public class CheckAnswer : MonoBehaviour
 {
     [SerializeField] private SoalManager sm;
-    [SerializeField] TMP_Text gameOverScore;
-    [SerializeField] public int score = 0;
 
     public void _CheckingAnswer(int soalNomor)
     {
@@ -59,17 +57,12 @@ public class CheckAnswer : MonoBehaviour
         {
             Debug.Log("benar");
             sm.currentSoal += 1;
-            score += 1;
-            Debug.Log("skor= " + score);
+            sm.currentScore += 1;
         }
         else
         {
             Debug.Log("salah");
             sm.currentSoal += 1;
         }
-    }
-    void update()
-    {
-        gameOverScore.text = "Score: " + score.ToString();
     }
 }
