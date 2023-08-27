@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55840ff17f51a12469daf605e9eb7c44, type: 3}
+  m_Name: Level  3
+  m_EditorClassIdentifier: 
+  Soal1: Soal 1 - Level 3
+  Soal1Jawaban:
+  - Jawaban Benar Soal 1 - Level 3
+  - Jawaban Salah 1 Soal 1 - Level 3
+  - Jawaban Salah 2 Soal 1 - Level 3
+  - Jawaban Salah 3 Soal 1 - Level 3
+  Soal2: Soal 2 - Level 3
+  Soal2Jawaban:
+  - Jawaban Benar Soal 2 - Level 3
+  - Jawaban Salah 1 Soal 2 - Level 3
+  - Jawaban Salah 2 Soal 2 - Level 3
+  - Jawaban Salah 3 Soal 2 - Level 3
+  Soal3: Soal 3 - Level 3
+  Soal3Jawaban:
+  - Jawaban Benar Soal 3 - Level 3
+  - Jawaban Salah 1 Soal 3 - Level 3
+  - Jawaban Salah 2 Soal 3 - Level 3
+  - Jawaban Salah 3 Soal 3 - Level 3
+  Soal4: Soal 4 - Level 3
+  Soal4Jawaban:
+  - Jawaban Benar Soal 4 - Level 3
+  - Jawaban Salah 1 Soal 4 - Level 3
+  - Jawaban Salah 2 Soal 4 - Level 3
+  - Jawaban Salah 3 Soal 4 - Level 3
+  Soal5: Soal 5 - Level 3
+  Soal5Jawaban:
+  - Jawaban Benar Soal 5 - Level 3
+  - Jawaban Salah 1 Soal 5 - Level 3
+  - Jawaban Salah 2 Soal 5 - Level 3
+  - Jawaban Salah 3 Soal 5 - Level 3
+  Soal6: Soal 6 - Level 3
+  Soal6Jawaban:
+  - Jawaban Benar Soal 6 - Level 3
+  - Jawaban Salah 1 Soal 6 - Level 3
+  - Jawaban Salah 2 Soal 6 - Level 3
+  - Jawaban Salah 3 Soal 6 - Level 3
+  Soal7: Soal 7 - Level 3
+  Soal7Jawaban:
+  - Jawaban Benar Soal 7 - Level 3
+  - Jawaban Salah 1 Soal 7 - Level 3
+  - Jawaban Salah 2 Soal 7 - Level 3
+  - Jawaban Salah 3 Soal 7 - Level 3
+  Soal8: Soal 8 - Level 3
+  Soal8Jawaban:
+  - Jawaban Benar Soal 8 - Level 3
+  - Jawaban Salah 1 Soal 8 - Level 3
+  - Jawaban Salah 2 Soal 8 - Level 3
+  - Jawaban Salah 3 Soal 8 - Level 3
+  Soal9: Soal 9 - Level 3
+  Soal9Jawaban:
+  - Jawaban Benar Soal 9 - Level 3
+  - Jawaban Salah 1 Soal 9 - Level 3
+  - Jawaban Salah 2 Soal 9 - Level 3
+  - Jawaban Salah 3 Soal 9 - Level 3
+  Soal10: Soal 10 - Level 3
+  Soal10Jawaban:
+  - Jawaban Benar Soal 10 - Level 3
+  - Jawaban Salah 1 Soal 10 - Level 3
+  - Jawaban Salah 2 Soal 10 - Level 3
+  - Jawaban Salah 3 Soal 10 - Level 3
+  IsAllSoalFilled: Semua Soal Level 3

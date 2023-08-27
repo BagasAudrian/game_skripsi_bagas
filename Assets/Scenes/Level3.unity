@@ -2799,7 +2799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e04b8aca12d9b43b05aa6f41ac049f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input_soal: {fileID: 0}
+  input_soal1: {fileID: 0}
   input_soal2: {fileID: 0}
   input_soal3: {fileID: 0}
   input_soal4: {fileID: 0}
@@ -2809,7 +2809,7 @@ MonoBehaviour:
   input_soal8: {fileID: 0}
   input_soal9: {fileID: 0}
   input_soal10: {fileID: 0}
-  input_jawaban_benar: {fileID: 0}
+  input_jawaban_benar1: {fileID: 0}
   input_jawaban_benar2: {fileID: 0}
   input_jawaban_benar3: {fileID: 0}
   input_jawaban_benar4: {fileID: 0}
@@ -2819,34 +2819,34 @@ MonoBehaviour:
   input_jawaban_benar8: {fileID: 0}
   input_jawaban_benar9: {fileID: 0}
   input_jawaban_benar10: {fileID: 0}
-  input_jawaban: {fileID: 0}
-  input_jawaban_2: {fileID: 0}
-  input_jawaban_3: {fileID: 0}
-  input_jawaban2: {fileID: 0}
+  input_jawaban1_1: {fileID: 0}
+  input_jawaban1_2: {fileID: 0}
+  input_jawaban1_3: {fileID: 0}
+  input_jawaban2_1: {fileID: 0}
   input_jawaban2_2: {fileID: 0}
   input_jawaban2_3: {fileID: 0}
-  input_jawaban3: {fileID: 0}
+  input_jawaban3_1: {fileID: 0}
   input_jawaban3_2: {fileID: 0}
   input_jawaban3_3: {fileID: 0}
-  input_jawaban4: {fileID: 0}
+  input_jawaban4_1: {fileID: 0}
   input_jawaban4_2: {fileID: 0}
   input_jawaban4_3: {fileID: 0}
-  input_jawaban5: {fileID: 0}
+  input_jawaban5_1: {fileID: 0}
   input_jawaban5_2: {fileID: 0}
   input_jawaban5_3: {fileID: 0}
-  input_jawaban6: {fileID: 0}
+  input_jawaban6_1: {fileID: 0}
   input_jawaban6_2: {fileID: 0}
   input_jawaban6_3: {fileID: 0}
-  input_jawaban7: {fileID: 0}
+  input_jawaban7_1: {fileID: 0}
   input_jawaban7_2: {fileID: 0}
   input_jawaban7_3: {fileID: 0}
-  input_jawaban8: {fileID: 0}
+  input_jawaban8_1: {fileID: 0}
   input_jawaban8_2: {fileID: 0}
   input_jawaban8_3: {fileID: 0}
-  input_jawaban9: {fileID: 0}
+  input_jawaban9_1: {fileID: 0}
   input_jawaban9_2: {fileID: 0}
   input_jawaban9_3: {fileID: 0}
-  input_jawaban10: {fileID: 0}
+  input_jawaban10_1: {fileID: 0}
   input_jawaban10_2: {fileID: 0}
   input_jawaban10_3: {fileID: 0}
   lagu: {fileID: 0}
@@ -4080,7 +4080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e04b8aca12d9b43b05aa6f41ac049f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input_soal: {fileID: 0}
+  input_soal1: {fileID: 0}
   input_soal2: {fileID: 0}
   input_soal3: {fileID: 0}
   input_soal4: {fileID: 0}
@@ -4090,7 +4090,7 @@ MonoBehaviour:
   input_soal8: {fileID: 0}
   input_soal9: {fileID: 0}
   input_soal10: {fileID: 0}
-  input_jawaban_benar: {fileID: 0}
+  input_jawaban_benar1: {fileID: 0}
   input_jawaban_benar2: {fileID: 0}
   input_jawaban_benar3: {fileID: 0}
   input_jawaban_benar4: {fileID: 0}
@@ -4100,34 +4100,34 @@ MonoBehaviour:
   input_jawaban_benar8: {fileID: 0}
   input_jawaban_benar9: {fileID: 0}
   input_jawaban_benar10: {fileID: 0}
-  input_jawaban: {fileID: 0}
-  input_jawaban_2: {fileID: 0}
-  input_jawaban_3: {fileID: 0}
-  input_jawaban2: {fileID: 0}
+  input_jawaban1_1: {fileID: 0}
+  input_jawaban1_2: {fileID: 0}
+  input_jawaban1_3: {fileID: 0}
+  input_jawaban2_1: {fileID: 0}
   input_jawaban2_2: {fileID: 0}
   input_jawaban2_3: {fileID: 0}
-  input_jawaban3: {fileID: 0}
+  input_jawaban3_1: {fileID: 0}
   input_jawaban3_2: {fileID: 0}
   input_jawaban3_3: {fileID: 0}
-  input_jawaban4: {fileID: 0}
+  input_jawaban4_1: {fileID: 0}
   input_jawaban4_2: {fileID: 0}
   input_jawaban4_3: {fileID: 0}
-  input_jawaban5: {fileID: 0}
+  input_jawaban5_1: {fileID: 0}
   input_jawaban5_2: {fileID: 0}
   input_jawaban5_3: {fileID: 0}
-  input_jawaban6: {fileID: 0}
+  input_jawaban6_1: {fileID: 0}
   input_jawaban6_2: {fileID: 0}
   input_jawaban6_3: {fileID: 0}
-  input_jawaban7: {fileID: 0}
+  input_jawaban7_1: {fileID: 0}
   input_jawaban7_2: {fileID: 0}
   input_jawaban7_3: {fileID: 0}
-  input_jawaban8: {fileID: 0}
+  input_jawaban8_1: {fileID: 0}
   input_jawaban8_2: {fileID: 0}
   input_jawaban8_3: {fileID: 0}
-  input_jawaban9: {fileID: 0}
+  input_jawaban9_1: {fileID: 0}
   input_jawaban9_2: {fileID: 0}
   input_jawaban9_3: {fileID: 0}
-  input_jawaban10: {fileID: 0}
+  input_jawaban10_1: {fileID: 0}
   input_jawaban10_2: {fileID: 0}
   input_jawaban10_3: {fileID: 0}
   lagu: {fileID: 0}
@@ -6244,7 +6244,7 @@ RectTransform:
   m_Children:
   - {fileID: 162041635}
   m_Father: {fileID: 1322315181}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.509799, y: 0.29083228}
   m_AnchorMax: {x: 0.8974782, y: 0.4452336}
@@ -8303,7 +8303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e04b8aca12d9b43b05aa6f41ac049f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input_soal: {fileID: 610981114}
+  input_soal1: {fileID: 0}
   input_soal2: {fileID: 0}
   input_soal3: {fileID: 0}
   input_soal4: {fileID: 0}
@@ -8313,46 +8313,46 @@ MonoBehaviour:
   input_soal8: {fileID: 0}
   input_soal9: {fileID: 0}
   input_soal10: {fileID: 0}
-  input_jawaban_benar: {fileID: 0}
-  input_jawaban_benar2: {fileID: 0}
-  input_jawaban_benar3: {fileID: 0}
-  input_jawaban_benar4: {fileID: 0}
-  input_jawaban_benar5: {fileID: 0}
-  input_jawaban_benar6: {fileID: 0}
-  input_jawaban_benar7: {fileID: 0}
-  input_jawaban_benar8: {fileID: 0}
-  input_jawaban_benar9: {fileID: 0}
-  input_jawaban_benar10: {fileID: 0}
-  input_jawaban: {fileID: 0}
-  input_jawaban_2: {fileID: 0}
-  input_jawaban_3: {fileID: 0}
-  input_jawaban2: {fileID: 0}
-  input_jawaban2_2: {fileID: 0}
-  input_jawaban2_3: {fileID: 0}
-  input_jawaban3: {fileID: 0}
-  input_jawaban3_2: {fileID: 0}
-  input_jawaban3_3: {fileID: 0}
-  input_jawaban4: {fileID: 0}
-  input_jawaban4_2: {fileID: 0}
-  input_jawaban4_3: {fileID: 0}
-  input_jawaban5: {fileID: 0}
-  input_jawaban5_2: {fileID: 0}
-  input_jawaban5_3: {fileID: 0}
-  input_jawaban6: {fileID: 0}
-  input_jawaban6_2: {fileID: 0}
-  input_jawaban6_3: {fileID: 0}
-  input_jawaban7: {fileID: 0}
-  input_jawaban7_2: {fileID: 0}
-  input_jawaban7_3: {fileID: 0}
-  input_jawaban8: {fileID: 0}
-  input_jawaban8_2: {fileID: 0}
-  input_jawaban8_3: {fileID: 0}
-  input_jawaban9: {fileID: 0}
-  input_jawaban9_2: {fileID: 0}
-  input_jawaban9_3: {fileID: 0}
-  input_jawaban10: {fileID: 0}
-  input_jawaban10_2: {fileID: 0}
-  input_jawaban10_3: {fileID: 0}
+  input_jawaban_benar1: {fileID: 610981114}
+  input_jawaban_benar2: {fileID: 647463510}
+  input_jawaban_benar3: {fileID: 1503748594}
+  input_jawaban_benar4: {fileID: 983147719}
+  input_jawaban_benar5: {fileID: 667879443}
+  input_jawaban_benar6: {fileID: 96567396}
+  input_jawaban_benar7: {fileID: 2126579605}
+  input_jawaban_benar8: {fileID: 13195818}
+  input_jawaban_benar9: {fileID: 684548061}
+  input_jawaban_benar10: {fileID: 1489205853}
+  input_jawaban1_1: {fileID: 1285071369}
+  input_jawaban1_2: {fileID: 1376103359}
+  input_jawaban1_3: {fileID: 1435806408}
+  input_jawaban2_1: {fileID: 1536177394}
+  input_jawaban2_2: {fileID: 1638212054}
+  input_jawaban2_3: {fileID: 1010230543}
+  input_jawaban3_1: {fileID: 1572417233}
+  input_jawaban3_2: {fileID: 700710907}
+  input_jawaban3_3: {fileID: 2116419104}
+  input_jawaban4_1: {fileID: 648842784}
+  input_jawaban4_2: {fileID: 2048432493}
+  input_jawaban4_3: {fileID: 351408223}
+  input_jawaban5_1: {fileID: 445862524}
+  input_jawaban5_2: {fileID: 1978262823}
+  input_jawaban5_3: {fileID: 1388271780}
+  input_jawaban6_1: {fileID: 1167589699}
+  input_jawaban6_2: {fileID: 56928189}
+  input_jawaban6_3: {fileID: 1742866936}
+  input_jawaban7_1: {fileID: 1057368612}
+  input_jawaban7_2: {fileID: 910964740}
+  input_jawaban7_3: {fileID: 1301361735}
+  input_jawaban8_1: {fileID: 162041636}
+  input_jawaban8_2: {fileID: 913768541}
+  input_jawaban8_3: {fileID: 1414426386}
+  input_jawaban9_1: {fileID: 1943922526}
+  input_jawaban9_2: {fileID: 1163524450}
+  input_jawaban9_3: {fileID: 1109482442}
+  input_jawaban10_1: {fileID: 1650628941}
+  input_jawaban10_2: {fileID: 119123144}
+  input_jawaban10_3: {fileID: 1241111340}
   lagu: {fileID: 0}
 --- !u!4 &378682639
 Transform:
@@ -11319,7 +11319,7 @@ RectTransform:
   m_Children:
   - {fileID: 913768540}
   m_Father: {fileID: 1322315181}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.09532079, y: 0.08627735}
   m_AnchorMax: {x: 0.48300004, y: 0.24067868}
@@ -20659,7 +20659,7 @@ RectTransform:
   m_Children:
   - {fileID: 1414426385}
   m_Father: {fileID: 1322315181}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.50845325, y: 0.088899866}
   m_AnchorMax: {x: 0.89613247, y: 0.2433012}
@@ -22577,7 +22577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd8b6654795d84986f6f5d56096260, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input_soal: {fileID: 610981114}
+  input_soal1: {fileID: 610981114}
   input_soal2: {fileID: 201846928}
   input_soal3: {fileID: 129863418}
   input_soal4: {fileID: 1883393595}
@@ -27189,10 +27189,10 @@ RectTransform:
   m_Children:
   - {fileID: 1366015600}
   - {fileID: 754810484}
+  - {fileID: 1699364576}
   - {fileID: 205153248}
   - {fileID: 554031515}
   - {fileID: 1033462898}
-  - {fileID: 1699364576}
   m_Father: {fileID: 1094522697}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29500,7 +29500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e04b8aca12d9b43b05aa6f41ac049f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input_soal: {fileID: 0}
+  input_soal1: {fileID: 0}
   input_soal2: {fileID: 0}
   input_soal3: {fileID: 0}
   input_soal4: {fileID: 0}
@@ -29510,7 +29510,7 @@ MonoBehaviour:
   input_soal8: {fileID: 0}
   input_soal9: {fileID: 0}
   input_soal10: {fileID: 0}
-  input_jawaban_benar: {fileID: 0}
+  input_jawaban_benar1: {fileID: 0}
   input_jawaban_benar2: {fileID: 0}
   input_jawaban_benar3: {fileID: 0}
   input_jawaban_benar4: {fileID: 0}
@@ -29520,34 +29520,34 @@ MonoBehaviour:
   input_jawaban_benar8: {fileID: 0}
   input_jawaban_benar9: {fileID: 0}
   input_jawaban_benar10: {fileID: 0}
-  input_jawaban: {fileID: 0}
-  input_jawaban_2: {fileID: 0}
-  input_jawaban_3: {fileID: 0}
-  input_jawaban2: {fileID: 0}
+  input_jawaban1_1: {fileID: 0}
+  input_jawaban1_2: {fileID: 0}
+  input_jawaban1_3: {fileID: 0}
+  input_jawaban2_1: {fileID: 0}
   input_jawaban2_2: {fileID: 0}
   input_jawaban2_3: {fileID: 0}
-  input_jawaban3: {fileID: 0}
+  input_jawaban3_1: {fileID: 0}
   input_jawaban3_2: {fileID: 0}
   input_jawaban3_3: {fileID: 0}
-  input_jawaban4: {fileID: 0}
+  input_jawaban4_1: {fileID: 0}
   input_jawaban4_2: {fileID: 0}
   input_jawaban4_3: {fileID: 0}
-  input_jawaban5: {fileID: 0}
+  input_jawaban5_1: {fileID: 0}
   input_jawaban5_2: {fileID: 0}
   input_jawaban5_3: {fileID: 0}
-  input_jawaban6: {fileID: 0}
+  input_jawaban6_1: {fileID: 0}
   input_jawaban6_2: {fileID: 0}
   input_jawaban6_3: {fileID: 0}
-  input_jawaban7: {fileID: 0}
+  input_jawaban7_1: {fileID: 0}
   input_jawaban7_2: {fileID: 0}
   input_jawaban7_3: {fileID: 0}
-  input_jawaban8: {fileID: 0}
+  input_jawaban8_1: {fileID: 0}
   input_jawaban8_2: {fileID: 0}
   input_jawaban8_3: {fileID: 0}
-  input_jawaban9: {fileID: 0}
+  input_jawaban9_1: {fileID: 0}
   input_jawaban9_2: {fileID: 0}
   input_jawaban9_3: {fileID: 0}
-  input_jawaban10: {fileID: 0}
+  input_jawaban10_1: {fileID: 0}
   input_jawaban10_2: {fileID: 0}
   input_jawaban10_3: {fileID: 0}
   lagu: {fileID: 0}
@@ -35484,7 +35484,7 @@ RectTransform:
   m_Children:
   - {fileID: 13195817}
   m_Father: {fileID: 1322315181}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.09532076, y: 0.29083225}
   m_AnchorMax: {x: 0.483, y: 0.44523358}

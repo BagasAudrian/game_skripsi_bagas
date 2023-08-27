@@ -5,7 +5,7 @@ using System.Collections;
 
 public class QuizUI : MonoBehaviour
 {
-    public Text questionText;
+    /*public Text questionText;
     public quizData[options] optionTexts; // Gunakan array jika Anda ingin menampilkan beberapa opsi
     
     [SerializeField] GameObject gameManager;
@@ -51,5 +51,5 @@ public class QuizUI : MonoBehaviour
         DisplayCurrentQuestion();
     }
 
-    // Metode lain yang dibutuhkan sesuai dengan kebutuhan Anda
+    // Metode lain yang dibutuhkan sesuai dengan kebutuhan Anda*/
 }

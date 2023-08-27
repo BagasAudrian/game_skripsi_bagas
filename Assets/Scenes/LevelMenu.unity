@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 98822931}
   - component: {fileID: 98822933}
   - component: {fileID: 98822932}
+  - component: {fileID: 98822934}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -206,6 +207,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98822930}
   m_CullTransparentMesh: 1
+--- !u!114 &98822934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98822930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96a0c9d88d6914a439ec1d9bc42269ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level1: {fileID: 11400000, guid: be0c5da34eeb6ac40a91e1dab82233a2, type: 2}
+  level2: {fileID: 11400000, guid: 616835b914151a749aa2650c6bb62aa2, type: 2}
+  level3: {fileID: 11400000, guid: 4828c09053f52dd43bc578b96ccb46da, type: 2}
+  buttonsLevel:
+  - {fileID: 172630018}
+  - {fileID: 1851131618}
+  - {fileID: 1567580928}
 --- !u!1 &144795405
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,7 +508,6 @@ GameObject:
   - component: {fileID: 172630020}
   - component: {fileID: 172630019}
   - component: {fileID: 172630018}
-  - component: {fileID: 172630021}
   m_Layer: 5
   m_Name: Level1
   m_TagString: Untagged
@@ -561,28 +580,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 172630021}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: Level1
-        m_Mode: 1
+      - m_Target: {fileID: 98822934}
+        m_TargetAssemblyTypeName: CheckSoalFilled, Assembly-CSharp
+        m_MethodName: LoadScened
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 172630021}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: LoadQuizFromFile
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: quiz_level1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &172630019
@@ -623,29 +630,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 172630016}
   m_CullTransparentMesh: 1
---- !u!114 &172630021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 172630016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6e04b8aca12d9b43b05aa6f41ac049f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  input_soal: {fileID: 0}
-  input_soal2: {fileID: 0}
-  input_soal3: {fileID: 0}
-  input_soal4: {fileID: 0}
-  input_soal5: {fileID: 0}
-  input_soal6: {fileID: 0}
-  input_soal7: {fileID: 0}
-  input_soal8: {fileID: 0}
-  input_soal9: {fileID: 0}
-  input_soal10: {fileID: 0}
-  lagu: {fileID: 0}
 --- !u!1 &221636072
 GameObject:
   m_ObjectHideFlags: 0
@@ -1221,7 +1205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e04b8aca12d9b43b05aa6f41ac049f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input_soal: {fileID: 0}
+  input_soal1: {fileID: 0}
   input_soal2: {fileID: 0}
   input_soal3: {fileID: 0}
   input_soal4: {fileID: 0}
@@ -1231,6 +1215,46 @@ MonoBehaviour:
   input_soal8: {fileID: 0}
   input_soal9: {fileID: 0}
   input_soal10: {fileID: 0}
+  input_jawaban_benar1: {fileID: 0}
+  input_jawaban_benar2: {fileID: 0}
+  input_jawaban_benar3: {fileID: 0}
+  input_jawaban_benar4: {fileID: 0}
+  input_jawaban_benar5: {fileID: 0}
+  input_jawaban_benar6: {fileID: 0}
+  input_jawaban_benar7: {fileID: 0}
+  input_jawaban_benar8: {fileID: 0}
+  input_jawaban_benar9: {fileID: 0}
+  input_jawaban_benar10: {fileID: 0}
+  input_jawaban1_1: {fileID: 0}
+  input_jawaban1_2: {fileID: 0}
+  input_jawaban1_3: {fileID: 0}
+  input_jawaban2_1: {fileID: 0}
+  input_jawaban2_2: {fileID: 0}
+  input_jawaban2_3: {fileID: 0}
+  input_jawaban3_1: {fileID: 0}
+  input_jawaban3_2: {fileID: 0}
+  input_jawaban3_3: {fileID: 0}
+  input_jawaban4_1: {fileID: 0}
+  input_jawaban4_2: {fileID: 0}
+  input_jawaban4_3: {fileID: 0}
+  input_jawaban5_1: {fileID: 0}
+  input_jawaban5_2: {fileID: 0}
+  input_jawaban5_3: {fileID: 0}
+  input_jawaban6_1: {fileID: 0}
+  input_jawaban6_2: {fileID: 0}
+  input_jawaban6_3: {fileID: 0}
+  input_jawaban7_1: {fileID: 0}
+  input_jawaban7_2: {fileID: 0}
+  input_jawaban7_3: {fileID: 0}
+  input_jawaban8_1: {fileID: 0}
+  input_jawaban8_2: {fileID: 0}
+  input_jawaban8_3: {fileID: 0}
+  input_jawaban9_1: {fileID: 0}
+  input_jawaban9_2: {fileID: 0}
+  input_jawaban9_3: {fileID: 0}
+  input_jawaban10_1: {fileID: 0}
+  input_jawaban10_2: {fileID: 0}
+  input_jawaban10_3: {fileID: 0}
   lagu: {fileID: 0}
 --- !u!114 &1401172294
 MonoBehaviour:
@@ -1338,7 +1362,6 @@ GameObject:
   - component: {fileID: 1567580930}
   - component: {fileID: 1567580929}
   - component: {fileID: 1567580928}
-  - component: {fileID: 1567580931}
   m_Layer: 5
   m_Name: Level3
   m_TagString: Untagged
@@ -1411,14 +1434,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1567580931}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: Level3
-        m_Mode: 1
+      - m_Target: {fileID: 98822934}
+        m_TargetAssemblyTypeName: CheckSoalFilled, Assembly-CSharp
+        m_MethodName: LoadScened
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1461,29 +1484,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567580926}
   m_CullTransparentMesh: 1
---- !u!114 &1567580931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1567580926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6e04b8aca12d9b43b05aa6f41ac049f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  input_soal: {fileID: 0}
-  input_soal2: {fileID: 0}
-  input_soal3: {fileID: 0}
-  input_soal4: {fileID: 0}
-  input_soal5: {fileID: 0}
-  input_soal6: {fileID: 0}
-  input_soal7: {fileID: 0}
-  input_soal8: {fileID: 0}
-  input_soal9: {fileID: 0}
-  input_soal10: {fileID: 0}
-  lagu: {fileID: 0}
 --- !u!1 &1704723737
 GameObject:
   m_ObjectHideFlags: 0
@@ -1784,7 +1784,6 @@ GameObject:
   - component: {fileID: 1851131620}
   - component: {fileID: 1851131619}
   - component: {fileID: 1851131618}
-  - component: {fileID: 1851131621}
   m_Layer: 5
   m_Name: Level2
   m_TagString: Untagged
@@ -1857,14 +1856,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1851131621}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: Level2
-        m_Mode: 1
+      - m_Target: {fileID: 98822934}
+        m_TargetAssemblyTypeName: CheckSoalFilled, Assembly-CSharp
+        m_MethodName: LoadScened
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1907,29 +1906,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1851131616}
   m_CullTransparentMesh: 1
---- !u!114 &1851131621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1851131616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6e04b8aca12d9b43b05aa6f41ac049f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  input_soal: {fileID: 0}
-  input_soal2: {fileID: 0}
-  input_soal3: {fileID: 0}
-  input_soal4: {fileID: 0}
-  input_soal5: {fileID: 0}
-  input_soal6: {fileID: 0}
-  input_soal7: {fileID: 0}
-  input_soal8: {fileID: 0}
-  input_soal9: {fileID: 0}
-  input_soal10: {fileID: 0}
-  lagu: {fileID: 0}
 --- !u!1 &1950724660
 GameObject:
   m_ObjectHideFlags: 0
@@ -2077,7 +2053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e04b8aca12d9b43b05aa6f41ac049f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input_soal: {fileID: 0}
+  input_soal1: {fileID: 0}
   input_soal2: {fileID: 0}
   input_soal3: {fileID: 0}
   input_soal4: {fileID: 0}
@@ -2087,4 +2063,44 @@ MonoBehaviour:
   input_soal8: {fileID: 0}
   input_soal9: {fileID: 0}
   input_soal10: {fileID: 0}
+  input_jawaban_benar1: {fileID: 0}
+  input_jawaban_benar2: {fileID: 0}
+  input_jawaban_benar3: {fileID: 0}
+  input_jawaban_benar4: {fileID: 0}
+  input_jawaban_benar5: {fileID: 0}
+  input_jawaban_benar6: {fileID: 0}
+  input_jawaban_benar7: {fileID: 0}
+  input_jawaban_benar8: {fileID: 0}
+  input_jawaban_benar9: {fileID: 0}
+  input_jawaban_benar10: {fileID: 0}
+  input_jawaban1_1: {fileID: 0}
+  input_jawaban1_2: {fileID: 0}
+  input_jawaban1_3: {fileID: 0}
+  input_jawaban2_1: {fileID: 0}
+  input_jawaban2_2: {fileID: 0}
+  input_jawaban2_3: {fileID: 0}
+  input_jawaban3_1: {fileID: 0}
+  input_jawaban3_2: {fileID: 0}
+  input_jawaban3_3: {fileID: 0}
+  input_jawaban4_1: {fileID: 0}
+  input_jawaban4_2: {fileID: 0}
+  input_jawaban4_3: {fileID: 0}
+  input_jawaban5_1: {fileID: 0}
+  input_jawaban5_2: {fileID: 0}
+  input_jawaban5_3: {fileID: 0}
+  input_jawaban6_1: {fileID: 0}
+  input_jawaban6_2: {fileID: 0}
+  input_jawaban6_3: {fileID: 0}
+  input_jawaban7_1: {fileID: 0}
+  input_jawaban7_2: {fileID: 0}
+  input_jawaban7_3: {fileID: 0}
+  input_jawaban8_1: {fileID: 0}
+  input_jawaban8_2: {fileID: 0}
+  input_jawaban8_3: {fileID: 0}
+  input_jawaban9_1: {fileID: 0}
+  input_jawaban9_2: {fileID: 0}
+  input_jawaban9_3: {fileID: 0}
+  input_jawaban10_1: {fileID: 0}
+  input_jawaban10_2: {fileID: 0}
+  input_jawaban10_3: {fileID: 0}
   lagu: {fileID: 0}

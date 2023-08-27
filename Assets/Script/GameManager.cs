@@ -65,6 +65,10 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+    public void Tentang()
+    {
+        SceneManager.LoadScene("Tentang");
+    }
     public void LevelMenu()
     {
         SceneManager.LoadScene("LevelMenu");
@@ -83,27 +87,27 @@ public class GameManager : MonoBehaviour
     }
     public void Level1()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Level 1");
     }
     public void Level2()
     {
-        SceneManager.LoadScene("Level2");
+        SceneManager.LoadScene("Level 2");
     }
     public void Level3()
     {
-        SceneManager.LoadScene("Level3");
+        SceneManager.LoadScene("Level 3");
     }
 
-    public AudioSource lagu;
+    //public AudioSource lagu;
 
-    public void mulai()
-    {
-        lagu.Play();
-    }
-    public void stoplagu()
-    {
-        lagu.Stop();
-    }
+    //public void mulai()
+    //{
+    //    lagu.Play();
+    //}
+    //public void stoplagu()
+    //{
+    //    lagu.Stop();
+    //}
 
     public void simpan_soal()
     {
